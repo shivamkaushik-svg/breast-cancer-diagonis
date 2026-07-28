@@ -150,7 +150,6 @@ developer_info = """
 ### About the Developer
 **Created by:** Shivam Kaushik
 
-* **LinkedIn:** https://www.linkedin.com/in/shivam-kaushik-87000b3a8?utm_source=share_via&utm_content=profile&utm_medium=member_android
 * **GitHub:** https://github.com/shivamkaushik-svg
 * **Instagram:** https://www.instagram.com/shivamkaushik_178?igsh=MTJwOWU0eDFscnRtcA==
 
