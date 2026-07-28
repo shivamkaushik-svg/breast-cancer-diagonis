@@ -144,7 +144,12 @@ with gr.Blocks(theme=gr.themes.Soft(primary_hue="teal", neutral_hue="slate")) as
 
     # Footer
     gr.Markdown("""
-    ---
+# AI Interview System
+
+## Developer
+
+**LinkedIn:** https://www.linkedin.com/in/shivam-kaushik-87000b3a8
+""")
     developer_info = """
 developer_info = """
 ### About the Developer
