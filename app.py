@@ -145,12 +145,13 @@ with gr.Blocks(theme=gr.themes.Soft(primary_hue="teal", neutral_hue="slate")) as
     # Footer
     gr.Markdown("""
     ---
-    ### 👨‍💻 About the Developer
-    **Created by:** Chandan Saroj (MERN Stack Developer & SDE)
-    * **LinkedIn:** [Connect with me](YOUR_LINKEDIN_URL_HERE)
-    * **GitHub:** [Check out my projects](YOUR_GITHUB_URL_HERE)
-    """)
+    developer_info = """
+### About the Developer
+**Created by:** Shivam Kaushik
 
+* **LinkedIn:** https://www.linkedin.com/in/shivam-kaushik-87000b3a8?utm_source=share_via&utm_content=profile&utm_medium=member_android
+* **GitHub:** https://github.com/shivamkaushik-svg
+* **Instagram:** https://www.instagram.com/shivamkaushik_178?igsh=MTJwOWU0eDFscnRtcA==
     # Wire up the logic exactly in the order of the dataset
     input_components = [
         f1, f2, f3, f4, f5, f6, f7, f8, f9, f10,
