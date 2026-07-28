@@ -156,22 +156,17 @@ with gr.Blocks(theme=gr.themes.Soft()) as app:
         lines=8
     )
 
-    gr.Markdown(
-        """
----
-
+   gr.Markdown("""
 ## 👨‍💻 Developer
 
-**Created By:** Shivam Kaushik
+**Created by:** Shivam Kaushik
 
 **GitHub:** https://github.com/shivamkaushik-svg
 
 **LinkedIn:** https://www.linkedin.com/in/shivam-kaushik-87000b3a8
 
 **Instagram:** https://www.instagram.com/shivamkaushik_178
-
-"""
-    )
+""")
 
     inputs = [
         f1, f2, f3, f4, f5,
