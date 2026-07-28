@@ -149,7 +149,7 @@ with gr.Blocks(theme=gr.themes.Soft(primary_hue="teal", neutral_hue="slate")) as
 ### About the Developer
 **Created by:** Shivam Kaushik
 
-* **LinkedIn:** https://www.linkedin.com/in/shivam-kaushik-87000b3a8?utm_source=share_via&utm_content=profile&utm_medium=member_android
+* **LinkedIn:** * **LinkedIn:** https://www.linkedin.com/in/shivam-kaushik-87000b3a8?utm_source=share_via&utm_content=profile&utm_medium=member_android
 * **GitHub:** https://github.com/shivamkaushik-svg
 * **Instagram:** https://www.instagram.com/shivamkaushik_178?igsh=MTJwOWU0eDFscnRtcA==
     # Wire up the logic exactly in the order of the dataset
