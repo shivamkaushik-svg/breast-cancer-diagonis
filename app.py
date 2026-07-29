@@ -11,7 +11,10 @@ import tensorflow as tf
 # Load the Scaler and TensorFlow Model
 # ==========================================================
 try:
-    scaler = joblib.load('breast_cancer_scaler.pkl')
+    # --- CODE BLOCK: UPDATED FILENAME TO MATCH GITHUB REPO ---
+    # Changed from 'breast_cancer_scaler.pkl' to 'breast_cancer_model.pkl'
+    scaler = joblib.load('breast_cancer_model.pkl')
+    # ---------------------------------------------------------
     deployed_nn = tf.keras.models.load_model('breast_cancer_model.h5')
     print("Scaler and Deep Learning Model loaded successfully!")
 except Exception as e:
@@ -41,7 +44,6 @@ def predict_cancer(f1, f2, f3, f4, f5, f6, f7, f8, f9, f10):
         0.001784   # fractal dimension error mode
     ]
 
-    # --- CODE BLOCK: UPDATED WORST FEATURES (CHANGES MADE HERE) ---
     # 3. Hardcoded Worst features using the actual dataset modes you provided
     preassumed_worst_features = [
         12.36,    # worst radius mode
@@ -55,7 +57,6 @@ def predict_cancer(f1, f2, f3, f4, f5, f6, f7, f8, f9, f10):
         0.2226,   # worst symmetry mode
         0.07427   # worst fractal dimension mode
     ]
-    # --------------------------------------------------------------
 
     # 4. Combine all arrays to perfectly match the 30 features the neural network expects
     full_30_features = user_mean_features + preassumed_error_features + preassumed_worst_features
@@ -131,10 +132,9 @@ with gr.Blocks(theme=gr.themes.Soft(primary_hue="teal", neutral_hue="slate")) as
     gr.Markdown("""
     ---
     ### 👨‍💻 About the Developer
-    **Created by:** Shivam Kaushik
-    * **LinkedIn:** https://www.linkedin.com/in/shivam-kaushik-87000b3a8?utm_source=share_via&utm_content=profile&utm_medium=member_android
-    * **GitHub:** https://github.com/shivamkaushik-svg
-    * **Instagram:** https://www.instagram.com/shivamkaushik_178?igsh=MTJwOWU0eDFscnRtcA==
+    **Created by:** Chandan Saroj (MERN Stack Developer & SDE)
+    * **LinkedIn:** [Connect with me](YOUR_LINKEDIN_URL_HERE)
+    * **GitHub:** [Check out my projects](YOUR_GITHUB_URL_HERE)
     """)
 
     # Wire up the logic mapped only to the 10 visible sliders
