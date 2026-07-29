@@ -11,9 +11,9 @@ If you are looking for the complete deep learning workflow—including data expl
 👉 **[Full Source Code & Dataset (Google Colab)](https://colab.research.google.com/drive/1o5cNDeLDWfuDZynvWLdEB6sa_40dLPf6?usp=sharing)**
 
 ## 👨‍💻 Developer
-**Chandan Saroj** | MERN Stack Developer & SDE
-* **LinkedIn:** [Connect with me](https://www.linkedin.com/in/chandan-saroj/)
-* **GitHub:** [Check out my projects](https://github.com/chandanXP)
+**Shivam Kaushik** | MERN Stack Developer & SDE
+* **LinkedIn:** https://www.linkedin.com/in/shivam-kaushik-87000b3a8?utm_source=share_via&utm_content=profile&utm_medium=member_android
+* **GitHub:** https://github.com/shivamkaushik-svg
 
 ## 🛠️ Tools & Technologies Used
 * **Deep Learning:** TensorFlow / Keras (Sequential Neural Network)
